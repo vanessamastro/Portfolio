@@ -2,7 +2,7 @@
   "name": "vanessa",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vanessamastro.github.io/portfolio",
+  "homepage": "https://vanessamastro.github.io/Portfolio/",
   "dependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
