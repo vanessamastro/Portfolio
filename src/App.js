@@ -1,6 +1,13 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import file from './Desktop/MastrosimoneResume.pdf';
 import './App.css';
+
+console.log(logo);
+
+function Header(){
+  return <img src={file} alt="File" />;
+}
 
 class App extends Component {
   render() {
@@ -9,15 +16,24 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            This is my new and improved portfolio!
+            Vanessa Mastrosimone
+          </p>
+          <p>
+            SPU Student
+          </p>
+          <p>
+            Software Developer & Aspiring UI Designer
+          </p>
+          <p>
+             
           </p>
           <a
-            className="App-link"
-            href="https://reactjs.org"
+            className="LinkedIn"
+            href="https://www.linkedin.com/in/vanessa-mastrosimone/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Vanessa Mastrosimone
+            LinkedIn
           </a>
         </header>
       </div>
